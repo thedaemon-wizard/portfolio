@@ -1,0 +1,32 @@
+/* Reset & base */
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: sans-serif; line-height:1.6; color:#333; }
+
+/* Hero/header */
+#hero {
+  background: #0a0f2e; color: #fff; text-align: center; padding: 4rem 1rem;
+}
+#hero nav a {
+  margin: 0 1rem; color: #aad; text-decoration: none;
+}
+#hero nav a:hover { text-decoration: underline; }
+
+/* Sections */
+section { padding: 3rem 1rem; max-width: 800px; margin: auto; }
+h2 { margin-bottom: 1rem; color: #0a0f2e; }
+
+/* Project cards */
+.project-card {
+  border: 1px solid #ddd; border-radius: 8px; padding: 1rem;
+  margin-bottom: 1rem; transition: box-shadow .2s;
+}
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Skills */
+.skills-list { list-style: none; }
+.skills-list li { margin-bottom: 0.5rem; }
+
+/* Footer */
+footer { text-align:center; padding:2rem 1rem; font-size:0.9rem; background:#f5f5f5; }
